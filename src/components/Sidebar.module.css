@@ -71,6 +71,8 @@
     transition: color 0.1s, background-color 0.1s;
 }
 
+/* Changing the background color of the footer to green and the text to white when
+the mouse hovers over it. */
 .sidebar footer a:hover {
     background: var(--green-500);
     color: var(--white);

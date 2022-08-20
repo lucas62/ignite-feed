@@ -1,10 +1,7 @@
 import { PencilLine } from 'phosphor-react'
 import styles from './Sidebar.module.css'
 
-/**
- * It returns a sidebar with a cover image, a profile, and a footer.
- * @returns A React component.
- */
+/* A function that returns a sidebar with a cover image, a profile, and a footer. */
 export function Sidebar() {
     return (
         <aside className={styles.sidebar}>
