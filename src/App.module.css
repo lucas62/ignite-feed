@@ -1,0 +1,14 @@
+/* Setting the width of the wrapper to 70rem, and the margin to 2rem auto. It is
+also setting the padding to 0 1rem. It is also setting the display to grid, and
+the grid-template-columns to 256px 1fr. It is also setting the gap to 2rem, and
+the align-items to flex-start. */
+.wrapper {
+    max-width: 70rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+
+    display: grid;
+    grid-template-columns: 256px 1fr;
+    gap: 2rem;
+    align-items: flex-start;
+}
