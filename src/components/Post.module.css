@@ -49,16 +49,6 @@
     gap: 1rem;
 }
 
-/* Styling the avatar. */
-.avatar {
-    box-sizing: initial;
-    width: 3rem;
-    height: 3rem;
-    border-radius: 8px;
-    border: 4px solid var(--gray-800);
-    outline: 2px solid var(--green-500);
-}
-
 /* This is styling the strong tag inside the authorInfo class. */
 .authorInfo strong{
     display: block;
