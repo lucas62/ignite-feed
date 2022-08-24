@@ -19,8 +19,6 @@ function App() {
 
         <main>
           <Post />
-          <Post />
-          <Post />
         </main>
 
       </div>
