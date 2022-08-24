@@ -5,6 +5,8 @@ import { Post } from './components/Post'
 import styles from './App.module.css'
 import './global.css'
 
+
+
 /**
  * The App function returns the Header component, the Sidebar component, and the
  * Post component

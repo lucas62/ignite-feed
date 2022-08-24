@@ -1,6 +1,6 @@
 import styles from './Header.module.css'
 
-import igniteLogo from '../assets/ignite-logo.svg'
+import igniteLogo from '../assets/ignite.svg'
 
 /**
  * It returns a header element with a className of "header" and an image element
