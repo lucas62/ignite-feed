@@ -67,3 +67,9 @@ the mouse hovers over it. */
     background: var(--green-500);
     color: var(--white);
 }
+
+@media (max-width: 768px) {
+    .sidebar footer a {
+        justify-content: space-around ;
+    }
+}
