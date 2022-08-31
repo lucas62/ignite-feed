@@ -118,8 +118,14 @@
 }
 
 /* Changing the background color of the button when the mouse is hovering over it. */
-.commentForm button[type=submit]:hover {
+.commentForm button[type=submit]:not(:disabled)hover {
     background: var(--green-300);
+}
+
+/* Making the button disabled. */
+.commentForm button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
 }
 
 .commentList {
