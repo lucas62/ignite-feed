@@ -5,7 +5,7 @@
     --gray-100: #e1e1e6;
     --gray-300: #c4c4cc;
     --gray-400: #8d8d99;
-    --gray-500: #555555;
+    --gray-500: #3D3C42;
     --gray-600: #323238;
     --gray-700: #29292e;
     --gray-800: #202024;
@@ -30,6 +30,11 @@
     box-sizing: border-box;
 }
 
+/* Making the scrollbar smooth. */
+html {
+    scroll-behavior: smooth;
+}
+
 /* Setting the background color to gray-900 and the text color to gray-300. */
 body {
     background: var(--gray-900);
@@ -45,19 +50,28 @@ body, input textarea, button {
     font-size: 1rem;
 }
 
+/* Styling the scrollbar track. */
 body::-webkit-scrollbar-track {
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	border-radius: 10px;
-	background-color: var(--gray-700);
+	border-radius: none;
+	background-color: transparent;
 }
 
+/* Styling the scrollbar. */
 body::-webkit-scrollbar {
-	width: 12px;
-	background-color: var(--gray-700);
+	height: 0.6rem;
+    width: 0.6rem;
+    margin-right: 10px;
 }
 
+/* Styling the scrollbar thumb. */
 body::-webkit-scrollbar-thumb {
-	border-radius: 10px;
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
 	background-color: var(--gray-500);
+	border-radius: 3px;
+    cursor: move;
+}
+
+/* Removing the scrollbar from the bottom right corner of the page. */
+body::-webkit-scrollbar-corner {
+    border: none;
+    background: none;
 }
